@@ -14,4 +14,4 @@ jobs:
 
     - name: ping google
       run: |
-        ping www.google.com
+        ping -c 4 google.com
