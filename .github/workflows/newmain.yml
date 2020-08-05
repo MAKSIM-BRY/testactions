@@ -11,3 +11,7 @@ jobs:
     - name: just echo a message
       run: |
         echo Hello there!
+
+    - name: ping google
+      run: |
+        ping www.google.com
